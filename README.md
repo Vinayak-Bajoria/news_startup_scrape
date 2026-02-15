@@ -1,56 +1,78 @@
-# Streamlit Application
+# 📰 Newsssyyy — Startup News Intelligence
 
-This project is a Streamlit application that displays a looping video with an overlay button. Below are the details of the project structure and how to set it up.
+A Streamlit app that scrapes, analyzes, and compares news coverage of **50 Indian startups + 5 MNCs** using **6 different ML algorithms**. Search any company in real-time or explore pre-computed dataset results.
+
+## Features
+
+- **Live Search** — Type any company name, pick a timeline (1–30 days), and see real-time ML analysis from Google News RSS
+- **Dataset Analysis** — Pre-computed results for 50 startups + 5 MNCs with side-by-side algorithm comparison
+- **Best-First Tabs** — Algorithms are automatically ranked; the best-performing one appears first
+- **6 ML Algorithms**: TF-IDF Search, Keyword Match, Source Diversity, Temporal Analysis, Topic Extraction, Composite Coverage Score
+- **Startup vs MNC Comparison** — Head-to-head bar charts across all metrics
 
 ## Project Structure
 
 ```
-streamlit_app
-├── bday_home.py
-├── assets
-│   ├── ts_eye.png
-│   └── background_video.mp4
-├── pages
-│   └── other_pages.py
+news_startup_scrape/
+├── Newsssyyy_Home.py          # Home page — Live Search
+├── pages/
+│   └── 2_Dataset_Analysis.py  # Dataset Analysis page
+├── src/
+│   ├── data_loader.py         # Load startup/MNC data from Excel
+│   ├── news_scraper.py        # Google News RSS scraper
+│   ├── splitter.py            # Train/val/test split logic
+│   ├── ml_models.py           # TF-IDF & LDA model training
+│   └── pipeline.py            # Full scrape + ML pipeline
+├── data/
+│   ├── raw/                   # Scraped articles JSON
+│   ├── processed/             # ML results, company registry
+│   ├── models/                # Saved TF-IDF & LDA models
+│   └── splits/                # Train/val/test split definitions
+├── assets/
+│   └── Indian Startups (1).xlsx  # Source dataset
+├── config.py                  # Path & parameter configuration
+├── run_pipeline.py            # Run full scrape pipeline
+├── run_ml.py                  # Run ML model training
+├── test_smoke.py              # End-to-end smoke test
 ├── requirements.txt
 └── README.md
 ```
 
-## File Descriptions
+## Setup
 
-- **bday_home.py**: The main file for the Streamlit application. It sets up the page configuration, adds a title and text, checks for the existence of a video file, and displays the video in a loop. A button is overlaid on the video for user interaction.
+```bash
+# Clone
+git clone https://github.com/Vinayak-Bajoria/news_startup_scrape.git
+cd news_startup_scrape
 
-- **assets/ts_eye.png**: An image file that was previously used in the application. It may no longer be necessary if the video is being used.
+# Install dependencies
+pip install -r requirements.txt
 
-- **assets/background_video.mp4**: The video file that will be displayed in the application. It is set to loop continuously.
+# Run the app
+streamlit run Newsssyyy_Home.py
+```
 
-- **pages/other_pages.py**: A placeholder for additional pages in the Streamlit application. This file can be expanded to include more features or components related to the app.
+## Pipeline (optional — data is pre-computed)
 
-- **requirements.txt**: This file lists the dependencies required for the project, including Streamlit and any other necessary libraries.
+```bash
+# Scrape news for all 55 companies
+python run_pipeline.py
 
-## Setup Instructions
+# Train TF-IDF & LDA models on scraped data
+python run_ml.py
+```
 
-1. **Clone the Repository**: Clone this repository to your local machine.
+## Tech Stack
 
-2. **Navigate to the Project Directory**: Open a terminal and navigate to the `streamlit_app` directory.
+- **Streamlit** — Dashboard UI
+- **scikit-learn** — TF-IDF vectorization, LDA topic modeling
+- **Plotly** — Interactive charts (bar, pie, gauge, timeline)
+- **feedparser + BeautifulSoup** — Google News RSS scraping
+- **pandas** — Data wrangling
 
-3. **Install Dependencies**: Run the following command to install the required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
+## Dataset
 
-4. **Run the Application**: Start the Streamlit application by executing:
-   ```
-   streamlit run bday_home.py
-   ```
-
-5. **Access the Application**: Open your web browser and go to the URL provided in the terminal (usually `http://localhost:8501`).
-
-## Usage
-
-Once the application is running, you will see a looping video with a button overlay. You can interact with the button as needed. 
-
-## Notes
-
-- Ensure that the video file `background_video.mp4` is present in the `assets` directory for the application to function correctly.
-- The image file `ts_eye.png` is included but may not be necessary for the current implementation.
+- **50 Indian startups** across fintech, edtech, healthtech, foodtech, logistics, and more
+- **5 MNCs** (Google, Microsoft, Amazon, Apple, Meta) as comparison baselines
+- **634 articles** scraped across 55 companies
+- **Train/Val/Test split**: 32 / 9 / 9 companies (stratified by sector)
