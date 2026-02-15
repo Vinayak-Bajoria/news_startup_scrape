@@ -290,6 +290,13 @@ if query:
                                  title="TF-IDF vs Keyword: How Many Results?",
                                  color_discrete_map={"TF-IDF": "#4ECDC4", "Keyword Match": "#FFD93D"})
                     st.plotly_chart(fig, use_container_width=True)
+                    with st.expander("📄 All articles"):
+                        for a in articles:
+                            st.markdown(f"**{a['title']}**")
+                            st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                            if a.get('url'):
+                                st.markdown(f"[Read article]({a['url']})")
+                            st.markdown("---")
 
                 elif key == "sources":
                     st.subheader("📊 Source Diversity Analysis")
@@ -320,6 +327,13 @@ if query:
                                          color="Articles", color_continuous_scale="Teal")
                             fig.update_layout(yaxis=dict(autorange="reversed"))
                             st.plotly_chart(fig, use_container_width=True)
+                    with st.expander("📄 All articles"):
+                        for a in articles:
+                            st.markdown(f"**{a['title']}**")
+                            st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                            if a.get('url'):
+                                st.markdown(f"[Read article]({a['url']})")
+                            st.markdown("---")
 
                 elif key == "temporal":
                     st.subheader("📅 Temporal Distribution")
@@ -345,6 +359,13 @@ if query:
                         fig = px.bar(ddf, x="Date", y="Articles", title="Article Timeline",
                                      color="Articles", color_continuous_scale="Blues")
                         st.plotly_chart(fig, use_container_width=True)
+                    with st.expander("📄 All articles"):
+                        for a in articles:
+                            st.markdown(f"**{a['title']}**")
+                            st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                            if a.get('url'):
+                                st.markdown(f"[Read article]({a['url']})")
+                            st.markdown("---")
 
                 elif key == "topics":
                     st.subheader("🏷️ Topic Keyword Extraction")
@@ -371,6 +392,13 @@ if query:
                         st.plotly_chart(fig, use_container_width=True)
                     elif len(articles) < 3:
                         st.warning("Need at least 3 articles for topic extraction")
+                    with st.expander("📄 All articles"):
+                        for a in articles:
+                            st.markdown(f"**{a['title']}**")
+                            st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                            if a.get('url'):
+                                st.markdown(f"[Read article]({a['url']})")
+                            st.markdown("---")
 
                 elif key == "coverage":
                     st.subheader("📈 Composite Coverage Score")
@@ -408,6 +436,14 @@ if query:
                         else:
                             summary_data["Verdict"].append("🔴 Weak")
                     st.dataframe(pd.DataFrame(summary_data), use_container_width=True, hide_index=True)
+
+                    with st.expander("📄 All articles"):
+                        for a in articles:
+                            st.markdown(f"**{a['title']}**")
+                            st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                            if a.get('url'):
+                                st.markdown(f"[Read article]({a['url']})")
+                            st.markdown("---")
 
                     st.markdown(f"""
                     ### Key Takeaway for "{query}"

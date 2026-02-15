@@ -283,6 +283,13 @@ else:
                         for r in tfidf_res[:10]:
                             st.markdown(f"**{r['title']}** — score: {r['tfidf_score']:.4f}")
                             st.caption(f"{r.get('source','N/A')} | {r.get('published_date','')}")
+                with st.expander("📄 All articles"):
+                    for a in filtered:
+                        st.markdown(f"**{a.get('title', 'Untitled')}**")
+                        st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                        if a.get('url'):
+                            st.markdown(f"[Read article]({a['url']})")
+                        st.markdown("---")
 
             elif key == "keyword":
                 st.subheader("🎯 Simple Keyword Match")
@@ -301,6 +308,13 @@ else:
                     with st.expander("View matches"):
                         for r in kw_res[:10]:
                             st.markdown(f"**{r['title']}** — match: {r['keyword_score']:.3f}")
+                with st.expander("📄 All articles"):
+                    for a in filtered:
+                        st.markdown(f"**{a.get('title', 'Untitled')}**")
+                        st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                        if a.get('url'):
+                            st.markdown(f"[Read article]({a['url']})")
+                        st.markdown("---")
 
             elif key == "sources":
                 st.subheader("📊 Source Diversity Analysis")
@@ -316,6 +330,13 @@ else:
                         st.metric("Top source", f"{src_info['top_source'][0]} ({src_info['top_source'][1]})")
                 else:
                     st.warning("No sources — company has zero coverage")
+                with st.expander("📄 All articles"):
+                    for a in filtered:
+                        st.markdown(f"**{a.get('title', 'Untitled')}**")
+                        st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                        if a.get('url'):
+                            st.markdown(f"[Read article]({a['url']})")
+                        st.markdown("---")
 
             elif key == "temporal":
                 st.subheader("📅 Temporal Distribution")
@@ -332,6 +353,13 @@ else:
                         st.success("📈 Consistent coverage — strong media presence")
                 else:
                     st.warning("No date data available")
+                with st.expander("📄 All articles"):
+                    for a in filtered:
+                        st.markdown(f"**{a.get('title', 'Untitled')}**")
+                        st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                        if a.get('url'):
+                            st.markdown(f"[Read article]({a['url']})")
+                        st.markdown("---")
 
             elif key == "topics":
                 st.subheader("🏷️ Topic Keywords")
@@ -347,6 +375,13 @@ else:
                         st.warning("⚠️ < 5 articles — topic extraction is unreliable")
                 else:
                     st.error(topics.get("error", "Cannot extract topics"))
+                with st.expander("📄 All articles"):
+                    for a in filtered:
+                        st.markdown(f"**{a.get('title', 'Untitled')}**")
+                        st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                        if a.get('url'):
+                            st.markdown(f"[Read article]({a['url']})")
+                        st.markdown("---")
 
             elif key == "coverage":
                 st.subheader("📈 Composite Coverage Score")
@@ -372,6 +407,13 @@ else:
                         st.warning("🟡 Moderate — algorithms will disagree")
                     else:
                         st.success("🟢 Strong — all algorithms produce meaningful results")
+                with st.expander("📄 All articles"):
+                    for a in filtered:
+                        st.markdown(f"**{a.get('title', 'Untitled')}**")
+                        st.caption(f"{a.get('source', '')} | {a.get('published_date', '')}")
+                        if a.get('url'):
+                            st.markdown(f"[Read article]({a['url']})")
+                        st.markdown("---")
 
 
 # ═══════════════════════════════════════════════════════════════
