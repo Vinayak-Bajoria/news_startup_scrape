@@ -1,0 +1,669 @@
+[
+  {
+    "name": "Zepto",
+    "founding_year": "2021",
+    "sector": "Quick Commerce",
+    "founders": "Aadit Palicha, Kaivalya Vohra",
+    "description": "10-minute grocery delivery platform revolutionizing quick commerce.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "Zepto"
+    ]
+  },
+  {
+    "name": "Mensa Brands",
+    "founding_year": "2021",
+    "sector": "D2C Aggregator (Thrasio-style)",
+    "founders": "Ananth Narayanan",
+    "description": "Acquires and scales digital-first brands across fashion, home, and beauty.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Mensa Brands"
+    ]
+  },
+  {
+    "name": "GlobalBees",
+    "founding_year": "2021",
+    "sector": "D2C Aggregator",
+    "founders": "Nitin Agarwal",
+    "description": "Aggregates and scales D2C brands; achieved unicorn status quickly.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "GlobalBees"
+    ]
+  },
+  {
+    "name": "Kutumb",
+    "founding_year": "2020",
+    "sector": "Social Community",
+    "founders": "Abhishek Kejriwal, Vipul Allawadhi",
+    "description": "A community networking app for Bharat, connecting people based on community/interests.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Kutumb"
+    ]
+  },
+  {
+    "name": "Apna",
+    "founding_year": "2019/2020",
+    "sector": "HRTech / Jobs",
+    "founders": "Nirmit Parikh",
+    "description": "Professional networking and job search platform for grey and blue-collar workers.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Apna"
+    ]
+  },
+  {
+    "name": "Jar",
+    "founding_year": "2021",
+    "sector": "Fintech",
+    "founders": "Nishchay AG, Misbah Ashraf",
+    "description": "An automated gold savings app that invests small change from digital transactions.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Jar"
+    ]
+  },
+  {
+    "name": "GoKwik",
+    "founding_year": "2020",
+    "sector": "E-commerce Enabler",
+    "founders": "Chirag Taneja, Vivek Bajpai",
+    "description": "Provides checkout and fraud protection solutions to D2C brands to reduce RTO.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "GoKwik"
+    ]
+  },
+  {
+    "name": "Rigi",
+    "founding_year": "2021",
+    "sector": "Creator Economy",
+    "founders": "Swapnil Saurav, Ananya Singhal",
+    "description": "Tools for creators to manage their community, content, and monetization.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Rigi"
+    ]
+  },
+  {
+    "name": "Ultrahuman",
+    "founding_year": "2020",
+    "sector": "HealthTech / Wearables",
+    "founders": "Mohit Kumar, Vatsal Singhal",
+    "description": "Develops metabolic fitness platforms and wearable health trackers (Ring/M1).",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Ultrahuman"
+    ]
+  },
+  {
+    "name": "Teachmint",
+    "founding_year": "2020",
+    "sector": "EdTech",
+    "founders": "Mihir Gupta, Payoj Jain",
+    "description": "Infrastructure provider for educators to digitize their classrooms.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Teachmint"
+    ]
+  },
+  {
+    "name": "BlissClub",
+    "founding_year": "2020",
+    "sector": "D2C Fashion",
+    "founders": "Minu Margeret",
+    "description": "Activewear brand specifically designed for Indian women.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "BlissClub"
+    ]
+  },
+  {
+    "name": "AppsForBharat",
+    "founding_year": "2020",
+    "sector": "Spiritual Tech",
+    "founders": "Prashant Sachan",
+    "description": "Builds apps like Sri Mandir to serve the spiritual and devotional needs of users.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "AppsForBharat"
+    ]
+  },
+  {
+    "name": "Murf AI",
+    "founding_year": "2020",
+    "sector": "AI / SaaS",
+    "founders": "Sneha Roy, Ankur Edkie",
+    "description": "AI-enabled voice-over studio that generates lifelike voiceovers from text.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Murf AI"
+    ]
+  },
+  {
+    "name": "Plum",
+    "founding_year": "2020",
+    "sector": "InsurTech",
+    "founders": "Abhishek Poddar, Saurabh Arora",
+    "description": "Provides comprehensive group health insurance and benefits for startups/SMEs.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Plum"
+    ]
+  },
+  {
+    "name": "Uni Cards",
+    "founding_year": "2020",
+    "sector": "Fintech",
+    "founders": "Nitin Gupta",
+    "description": "Offers credit products like Pay 1/3rd cards to simplify credit for users.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Uni Cards"
+    ]
+  },
+  {
+    "name": "StockGro",
+    "founding_year": "2020",
+    "sector": "Fintech / Social Trading",
+    "founders": "Ajay Lakhotia",
+    "description": "Social investment platform helping users learn trading via virtual leagues.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "StockGro"
+    ]
+  },
+  {
+    "name": "Eka Care",
+    "founding_year": "2020",
+    "sector": "HealthTech",
+    "founders": "Vikalp Sahni, Deepak Tuli",
+    "description": "Connected healthcare platform for storing health records and managing doctor clinics.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Eka Care"
+    ]
+  },
+  {
+    "name": "OneCard",
+    "founding_year": "2020",
+    "sector": "Fintech",
+    "founders": "Anurag Sinha, Rupesh Kumar",
+    "description": "Mobile-first metal credit card offering rewards and control via app.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "OneCard"
+    ]
+  },
+  {
+    "name": "UpScalio",
+    "founding_year": "2021",
+    "sector": "D2C Aggregator",
+    "founders": "Gautam Kshatriya",
+    "description": "Aggregator that invests in and grows e-commerce brands (Thrasio-model).",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "UpScalio"
+    ]
+  },
+  {
+    "name": "10Club",
+    "founding_year": "2020",
+    "sector": "D2C Aggregator",
+    "founders": "Bhavna Suresh",
+    "description": "Acquires and scales e-commerce businesses in the home and fitness categories.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "10Club"
+    ]
+  },
+  {
+    "name": "G.O.A.T Brand Labs",
+    "founding_year": "2021",
+    "sector": "D2C Aggregator",
+    "founders": "Rishi Vasudev",
+    "description": "Aggregates lifestyle brands and helps them scale globally.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "G.O.A.T Brand Labs",
+      "GOAT Brand Labs"
+    ]
+  },
+  {
+    "name": "Fasal",
+    "founding_year": "2020",
+    "sector": "AgriTech",
+    "founders": "Ananda Verma, Shailendra Tiwari",
+    "description": "Precision agriculture platform using AI & IoT for farm management.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "Fasal"
+    ]
+  },
+  {
+    "name": "Even",
+    "founding_year": "2020",
+    "sector": "HealthTech",
+    "founders": "Mayank Banerjee, Matilde Giglio",
+    "description": "Healthcare subscription provider offering unlimited doctor consultations and care.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Even"
+    ]
+  },
+  {
+    "name": "Questt",
+    "founding_year": "2020",
+    "sector": "EdTech",
+    "founders": "Akhil Singh",
+    "description": "Gamified homework and learning platform for students.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "Questt"
+    ]
+  },
+  {
+    "name": "Bhanzu",
+    "founding_year": "2020",
+    "sector": "EdTech",
+    "founders": "Neelakantha Bhanu Prakash",
+    "description": "Math-learning platform founded by the \"World's Fastest Human Calculator\".",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Bhanzu"
+    ]
+  },
+  {
+    "name": "Skippi Ice Pops",
+    "founding_year": "2020",
+    "sector": "D2C Food",
+    "founders": "Ravi Kabra",
+    "description": "India's first ice pop brand, gained fame on Shark Tank India.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Skippi Ice Pops"
+    ]
+  },
+  {
+    "name": "Turnip",
+    "founding_year": "2020",
+    "sector": "Gaming / Community",
+    "founders": "Pooja Dubey, Aditya Sharma",
+    "description": "Platform for mobile gamers to join communities, voice chat, and stream.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Turnip"
+    ]
+  },
+  {
+    "name": "CheQ",
+    "founding_year": "2022",
+    "sector": "Fintech",
+    "founders": "Aditya Soni",
+    "description": "Platform for managing and paying credit card bills and EMIs.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "CheQ"
+    ]
+  },
+  {
+    "name": "Kreo",
+    "founding_year": "2022",
+    "sector": "Consumer Electronics",
+    "founders": "Ishan Sukul, Himanshu Gupta",
+    "description": "Gear for content creators and gamers (lighting, mics, mounts).",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Kreo"
+    ]
+  },
+  {
+    "name": "AuditCue",
+    "founding_year": "2022",
+    "sector": "SaaS / GRC",
+    "founders": "Gaurav Kulkarni",
+    "description": "Streamlines audit and compliance processes for enterprises.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "AuditCue"
+    ]
+  },
+  {
+    "name": "Centricity Wealth",
+    "founding_year": "2022",
+    "sector": "Fintech / WealthTech",
+    "founders": "Manu Awasthy",
+    "description": "Tech-first wealth management platform for financial advisors and family offices.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "Centricity Wealth"
+    ]
+  },
+  {
+    "name": "NEMA AI",
+    "founding_year": "2022",
+    "sector": "EdTech / HealthTech",
+    "founders": "Nidhi Nuuskierigheid",
+    "description": "AI-based platform for personalized learning for neurodivergent children.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "NEMA AI"
+    ]
+  },
+  {
+    "name": "Insight.AI",
+    "founding_year": "2022",
+    "sector": "AI / Fintech",
+    "founders": "(Founding Team)",
+    "description": "Specializes in fraud detection and anti-money laundering using AI.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "InsightAI",
+      "Insight.AI"
+    ]
+  },
+  {
+    "name": "GoodLives",
+    "founding_year": "2022",
+    "sector": "HealthTech",
+    "founders": "Sakshi Shah",
+    "description": "Mental health platform providing holistic wellness solutions.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "GoodLives"
+    ]
+  },
+  {
+    "name": "Boba Bhai",
+    "founding_year": "2023",
+    "sector": "F&B / D2C",
+    "founders": "Dhruv Kohli",
+    "description": "QSR chain popularizing Bubble Tea and K-Pop burgers in India.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Boba Bhai"
+    ]
+  },
+  {
+    "name": "Hyphen",
+    "founding_year": "2023",
+    "sector": "D2C Beauty",
+    "founders": "Kriti Sanon, PEP Technologies",
+    "description": "Premium skincare brand co-founded by actress Kriti Sanon.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "Hyphen"
+    ]
+  },
+  {
+    "name": "Holiday Tribe",
+    "founding_year": "2023",
+    "sector": "TravelTech",
+    "founders": "Anshu Sharma, Chirag Goyal",
+    "description": "Personalized holiday planning and booking service.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Holiday Tribe"
+    ]
+  },
+  {
+    "name": "Swish",
+    "founding_year": "2024",
+    "sector": "FoodTech",
+    "founders": "Aniket Shah",
+    "description": "10-minute food delivery startup (cloud kitchen model).",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Swish"
+    ]
+  },
+  {
+    "name": "Indus Appstore",
+    "founding_year": "2023",
+    "sector": "Tech / App Store",
+    "founders": "PhonePe Team",
+    "description": "An Android app store built specifically for the Indian market by PhonePe.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Indus Appstore"
+    ]
+  },
+  {
+    "name": "Seven",
+    "founding_year": "2023",
+    "sector": "Consumer Electronics",
+    "founders": "Pugalia Family",
+    "description": "Premium audio wearables brand aiming to compete with global giants.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Seven"
+    ]
+  },
+  {
+    "name": "Zivy",
+    "founding_year": "2023",
+    "sector": "AI / SaaS",
+    "founders": "Prashanth Susarla",
+    "description": "AI tool that organizes work chats and notifications for productivity.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "Zivy"
+    ]
+  },
+  {
+    "name": "Genwise",
+    "founding_year": "2023",
+    "sector": "Senior Tech",
+    "founders": "Rajat Jain, Geetanshu Singla",
+    "description": "Lifestyle app designed for the elderly (elders' digital companion).",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Genwise"
+    ]
+  },
+  {
+    "name": "Aretto",
+    "founding_year": "2020/2021",
+    "sector": "D2C Footwear",
+    "founders": "Satyajit Mittal",
+    "description": "Kids' footwear brand with shoes that grow/expand with the child's feet.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Aretto"
+    ]
+  },
+  {
+    "name": "Pataa",
+    "founding_year": "2020",
+    "sector": "Location Tech",
+    "founders": "Rajat Jain",
+    "description": "Digital addressing app that converts long addresses into short codes.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Pataa"
+    ]
+  },
+  {
+    "name": "Sudo Foods",
+    "founding_year": "2020",
+    "sector": "D2C Food",
+    "founders": "Abhinav Chandel",
+    "description": "Kind meat' brand offering plant-based meat alternatives.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Sudo Foods"
+    ]
+  },
+  {
+    "name": "HouseEazy",
+    "founding_year": "2021",
+    "sector": "PropTech",
+    "founders": "Tarun Sainani, Deepak Bhatia",
+    "description": "Marketplace for buying and selling pre-owned homes with transparent pricing.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "HouseEazy"
+    ]
+  },
+  {
+    "name": "Navanc",
+    "founding_year": "2021",
+    "sector": "Fintech",
+    "founders": "Nagachethan S M",
+    "description": "Creditworthiness assessment platform for the unbanked sector.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Navanc"
+    ]
+  },
+  {
+    "name": "Lissun",
+    "founding_year": "2021",
+    "sector": "HealthTech",
+    "founders": "Krishna Veer Singh",
+    "description": "End-to-end mental health platform integrating with medical treatments.",
+    "company_type": "startup",
+    "split": "test",
+    "search_terms": [
+      "Lissun"
+    ]
+  },
+  {
+    "name": "Meragi",
+    "founding_year": "2021",
+    "sector": "Wedding Tech",
+    "founders": "Pooja Goyal",
+    "description": "Modern wedding services platform for planning and execution.",
+    "company_type": "startup",
+    "split": "val",
+    "search_terms": [
+      "Meragi"
+    ]
+  },
+  {
+    "name": "Clairco",
+    "founding_year": "2021",
+    "sector": "CleanTech",
+    "founders": "Aayush Jha",
+    "description": "Air quality monitoring and purification solutions for commercial spaces.",
+    "company_type": "startup",
+    "split": "train",
+    "search_terms": [
+      "Clairco"
+    ]
+  },
+  {
+    "name": "Tata Consultancy Services",
+    "founding_year": "N/A",
+    "sector": "IT Services",
+    "founders": "N/A",
+    "description": "Reference MNC: Tata Consultancy Services",
+    "company_type": "mnc",
+    "split": "reference",
+    "search_terms": [
+      "Tata Consultancy Services",
+      "TCS"
+    ]
+  },
+  {
+    "name": "Infosys",
+    "founding_year": "N/A",
+    "sector": "IT Services",
+    "founders": "N/A",
+    "description": "Reference MNC: Infosys",
+    "company_type": "mnc",
+    "split": "reference",
+    "search_terms": [
+      "Infosys",
+      "Infosys"
+    ]
+  },
+  {
+    "name": "Reliance Industries",
+    "founding_year": "N/A",
+    "sector": "Conglomerate",
+    "founders": "N/A",
+    "description": "Reference MNC: Reliance Industries",
+    "company_type": "mnc",
+    "split": "reference",
+    "search_terms": [
+      "Reliance Industries",
+      "Reliance"
+    ]
+  },
+  {
+    "name": "Wipro",
+    "founding_year": "N/A",
+    "sector": "IT Services",
+    "founders": "N/A",
+    "description": "Reference MNC: Wipro",
+    "company_type": "mnc",
+    "split": "reference",
+    "search_terms": [
+      "Wipro",
+      "Wipro"
+    ]
+  },
+  {
+    "name": "HCL Technologies",
+    "founding_year": "N/A",
+    "sector": "IT Services",
+    "founders": "N/A",
+    "description": "Reference MNC: HCL Technologies",
+    "company_type": "mnc",
+    "split": "reference",
+    "search_terms": [
+      "HCL Technologies",
+      "HCL Tech"
+    ]
+  }
+]

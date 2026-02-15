@@ -1,0 +1,734 @@
+{
+  "corpus_size": 634,
+  "companies": {
+    "Zepto": {
+      "article_count": 49,
+      "tfidf": {
+        "retrieved": 20,
+        "top_scores": [
+          0.556,
+          0.414,
+          0.387,
+          0.354,
+          0.289
+        ]
+      },
+      "topics": {
+        "topic_0": 5,
+        "topic_1": 15,
+        "topic_3": 10,
+        "topic_4": 2,
+        "topic_5": 9,
+        "topic_7": 8
+      }
+    },
+    "Mensa Brands": {
+      "article_count": 8,
+      "tfidf": {
+        "retrieved": 4,
+        "top_scores": [
+          0.55,
+          0.475,
+          0.36,
+          0.348
+        ]
+      },
+      "topics": {
+        "topic_1": 2,
+        "topic_3": 1,
+        "topic_4": 3,
+        "topic_5": 1,
+        "topic_7": 1
+      }
+    },
+    "GlobalBees": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_7": 1
+      }
+    },
+    "Kutumb": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Apna": {
+      "article_count": 6,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 2,
+        "topic_4": 3,
+        "topic_6": 1
+      }
+    },
+    "Jar": {
+      "article_count": 4,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_0": 1,
+        "topic_1": 1,
+        "topic_4": 2
+      }
+    },
+    "GoKwik": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_6": 1
+      }
+    },
+    "Rigi": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Ultrahuman": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 1
+      }
+    },
+    "Teachmint": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "BlissClub": {
+      "article_count": 2,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 2
+      }
+    },
+    "AppsForBharat": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Murf AI": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Plum": {
+      "article_count": 2,
+      "tfidf": {
+        "retrieved": 2,
+        "top_scores": [
+          0.552,
+          0.396
+        ]
+      },
+      "topics": {
+        "topic_6": 1,
+        "topic_7": 1
+      }
+    },
+    "Uni Cards": {
+      "article_count": 2,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 1,
+        "topic_3": 1
+      }
+    },
+    "StockGro": {
+      "article_count": 2,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 1,
+        "topic_3": 1
+      }
+    },
+    "Eka Care": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 1
+      }
+    },
+    "OneCard": {
+      "article_count": 2,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 1,
+        "topic_4": 1
+      }
+    },
+    "UpScalio": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "10Club": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "G.O.A.T Brand Labs": {
+      "article_count": 5,
+      "tfidf": {
+        "retrieved": 14,
+        "top_scores": [
+          0.389,
+          0.309,
+          0.28,
+          0.229,
+          0.219
+        ]
+      },
+      "topics": {
+        "topic_1": 4,
+        "topic_7": 1
+      }
+    },
+    "Fasal": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_4": 1
+      }
+    },
+    "Even": {
+      "article_count": 65,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_0": 6,
+        "topic_1": 6,
+        "topic_2": 4,
+        "topic_3": 19,
+        "topic_5": 11,
+        "topic_6": 7,
+        "topic_7": 12
+      }
+    },
+    "Questt": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Bhanzu": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_6": 1
+      }
+    },
+    "Skippi Ice Pops": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_3": 1
+      }
+    },
+    "Turnip": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "CheQ": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Kreo": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "AuditCue": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Centricity Wealth": {
+      "article_count": 3,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 2,
+        "topic_2": 1
+      }
+    },
+    "NEMA AI": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Insight.AI": {
+      "article_count": 67,
+      "tfidf": {
+        "retrieved": 20,
+        "top_scores": [
+          0.487,
+          0.435,
+          0.435,
+          0.224,
+          0.201
+        ]
+      },
+      "topics": {
+        "topic_0": 13,
+        "topic_1": 7,
+        "topic_2": 1,
+        "topic_3": 3,
+        "topic_4": 23,
+        "topic_5": 4,
+        "topic_6": 12,
+        "topic_7": 4
+      }
+    },
+    "GoodLives": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Boba Bhai": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_1": 1
+      }
+    },
+    "Hyphen": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Holiday Tribe": {
+      "article_count": 3,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_0": 1,
+        "topic_6": 1,
+        "topic_7": 1
+      }
+    },
+    "Swish": {
+      "article_count": 5,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_0": 1,
+        "topic_2": 1,
+        "topic_3": 1,
+        "topic_4": 1,
+        "topic_5": 1
+      }
+    },
+    "Indus Appstore": {
+      "article_count": 4,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_0": 1,
+        "topic_1": 2,
+        "topic_7": 1
+      }
+    },
+    "Seven": {
+      "article_count": 64,
+      "tfidf": {
+        "retrieved": 20,
+        "top_scores": [
+          0.556,
+          0.541,
+          0.387,
+          0.323,
+          0.318
+        ]
+      },
+      "topics": {
+        "topic_0": 4,
+        "topic_1": 13,
+        "topic_2": 5,
+        "topic_3": 3,
+        "topic_4": 5,
+        "topic_5": 15,
+        "topic_6": 8,
+        "topic_7": 11
+      }
+    },
+    "Zivy": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Genwise": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Aretto": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Pataa": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Sudo Foods": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "HouseEazy": {
+      "article_count": 1,
+      "tfidf": {
+        "retrieved": 0,
+        "top_scores": []
+      },
+      "topics": {
+        "topic_0": 1
+      }
+    },
+    "Navanc": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Lissun": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Meragi": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Clairco": {
+      "article_count": 0,
+      "status": "no_articles"
+    },
+    "Tata Consultancy Services": {
+      "article_count": 86,
+      "tfidf": {
+        "retrieved": 16,
+        "top_scores": [
+          0.763,
+          0.473,
+          0.28,
+          0.218,
+          0.207
+        ]
+      },
+      "topics": {
+        "topic_0": 8,
+        "topic_1": 16,
+        "topic_2": 9,
+        "topic_3": 10,
+        "topic_4": 11,
+        "topic_5": 8,
+        "topic_6": 12,
+        "topic_7": 12
+      }
+    },
+    "Infosys": {
+      "article_count": 59,
+      "tfidf": {
+        "retrieved": 20,
+        "top_scores": [
+          0.31,
+          0.3,
+          0.224,
+          0.212,
+          0.21
+        ]
+      },
+      "topics": {
+        "topic_0": 7,
+        "topic_1": 7,
+        "topic_2": 3,
+        "topic_3": 7,
+        "topic_4": 9,
+        "topic_5": 12,
+        "topic_6": 7,
+        "topic_7": 7
+      }
+    },
+    "Reliance Industries": {
+      "article_count": 85,
+      "tfidf": {
+        "retrieved": 20,
+        "top_scores": [
+          0.525,
+          0.514,
+          0.506,
+          0.366,
+          0.237
+        ]
+      },
+      "topics": {
+        "topic_0": 3,
+        "topic_1": 20,
+        "topic_2": 10,
+        "topic_3": 18,
+        "topic_4": 17,
+        "topic_5": 6,
+        "topic_6": 6,
+        "topic_7": 5
+      }
+    },
+    "Wipro": {
+      "article_count": 42,
+      "tfidf": {
+        "retrieved": 20,
+        "top_scores": [
+          0.595,
+          0.508,
+          0.277,
+          0.257,
+          0.236
+        ]
+      },
+      "topics": {
+        "topic_0": 3,
+        "topic_1": 4,
+        "topic_2": 6,
+        "topic_4": 5,
+        "topic_5": 13,
+        "topic_6": 9,
+        "topic_7": 2
+      }
+    },
+    "HCL Technologies": {
+      "article_count": 60,
+      "tfidf": {
+        "retrieved": 20,
+        "top_scores": [
+          0.679,
+          0.584,
+          0.436,
+          0.21,
+          0.176
+        ]
+      },
+      "topics": {
+        "topic_0": 8,
+        "topic_1": 18,
+        "topic_2": 5,
+        "topic_3": 5,
+        "topic_4": 5,
+        "topic_5": 6,
+        "topic_6": 6,
+        "topic_7": 7
+      }
+    }
+  },
+  "tfidf_top_terms": [
+    [
+      "india",
+      0.04895889245831127
+    ],
+    [
+      "ai",
+      0.04248844970938749
+    ],
+    [
+      "startup",
+      0.03328128738750963
+    ],
+    [
+      "indian",
+      0.024097430976014755
+    ],
+    [
+      "2026",
+      0.024046328913141995
+    ],
+    [
+      "startups",
+      0.023650959510032057
+    ],
+    [
+      "infosys",
+      0.019147116414053082
+    ],
+    [
+      "tcs",
+      0.018499794191878458
+    ],
+    [
+      "tech",
+      0.017384915180893044
+    ],
+    [
+      "10",
+      0.01713388635795295
+    ],
+    [
+      "wipro",
+      0.01602883956660504
+    ],
+    [
+      "times",
+      0.015961469332305644
+    ],
+    [
+      "new",
+      0.015763606861003535
+    ],
+    [
+      "rs",
+      0.014120255414863385
+    ],
+    [
+      "stocks",
+      0.013605709144285555
+    ],
+    [
+      "crore",
+      0.013493523505613243
+    ],
+    [
+      "today",
+      0.013059641276705962
+    ],
+    [
+      "economic",
+      0.012623101497845811
+    ],
+    [
+      "global",
+      0.012574101012420846
+    ],
+    [
+      "india ai",
+      0.0117459873132707
+    ]
+  ],
+  "topics": {
+    "topic_0": [
+      "ai",
+      "india",
+      "report",
+      "startup",
+      "partners",
+      "infosys",
+      "com",
+      "innovation",
+      "tech",
+      "tcs"
+    ],
+    "topic_1": [
+      "startup",
+      "rs",
+      "india",
+      "tech",
+      "crore",
+      "lakh",
+      "indian",
+      "raises",
+      "startups",
+      "cr"
+    ],
+    "topic_2": [
+      "tcs",
+      "startup",
+      "ranking",
+      "time",
+      "highlights",
+      "gets",
+      "national",
+      "day",
+      "times",
+      "era"
+    ],
+    "topic_3": [
+      "startup",
+      "10",
+      "india",
+      "000",
+      "funds",
+      "fund",
+      "crore",
+      "startups",
+      "pm",
+      "approves"
+    ],
+    "topic_4": [
+      "2026",
+      "stocks",
+      "watch",
+      "companies",
+      "indian",
+      "insights",
+      "10",
+      "startus",
+      "startups",
+      "ambani"
+    ],
+    "topic_5": [
+      "india",
+      "new",
+      "ai",
+      "tool",
+      "anthropic",
+      "seven",
+      "wipro",
+      "infosys",
+      "today",
+      "global"
+    ],
+    "topic_6": [
+      "impact",
+      "ai",
+      "2026",
+      "india",
+      "summit",
+      "budget",
+      "analytics",
+      "tata",
+      "wipro",
+      "magazine"
+    ],
+    "topic_7": [
+      "india",
+      "founder",
+      "ai",
+      "indian",
+      "founders",
+      "ceo",
+      "genai",
+      "startup",
+      "survey",
+      "experts"
+    ]
+  }
+}
